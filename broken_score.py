@@ -23,6 +23,7 @@ def check_score(score):
 
 
 def get_random_score():
+    """Generate random score"""
     return random.randint(1, 100)
 
 
